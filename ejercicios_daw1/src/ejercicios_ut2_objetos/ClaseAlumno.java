@@ -28,7 +28,13 @@ public class ClaseAlumno {
 	        public double devolverEdad(){
 	                
 	                return (double)atr_edad; //reconversion del int a double para que funcione correctamente el método "media"
-	                
+	        }
+	        //Método devolverEdad (retorna el atributo atr_edad para usarlo por ejemplo al calcular la media)
+	         public String devolverNombre(){
+	    	                
+	    	        return (String)atr_nombre; //reconversion del int a double para que funcione correctamente el método "media"
+	    	                
+	               
 	        }
 	                
 	        //Método muestraNombre usa el System.print para sacar el atr_nombre por "consola"
