@@ -69,7 +69,7 @@ public class Ej_condicionales7 {
 			break;
 			} // fin del segundo switch
 			// mostramos las manos
-			System.out.println("Yo he sacado:"+mimano+" tu has sadado"+tumano+" asi que...");
+			System.out.println("Yo he sacado:"+mimano+" tu has sacado"+tumano+" asi que...");
 			
 			
 			 if (mijugada==tujugada) {
