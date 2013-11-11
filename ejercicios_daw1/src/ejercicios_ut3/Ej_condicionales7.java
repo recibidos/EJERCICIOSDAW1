@@ -16,7 +16,7 @@ public class Ej_condicionales7 {
 		final int mijugada =(int)(Math.random()*3+1);
 		int tujugada=0;
 		int sumajugadas=0; // para guardar la suma de las jugadas
-		String mimano="";
+		String mimano=""; 
 	    String tumano="";
 	    String ganador="EMPATE"; // guardará GANO YO o GANAS TÚ O EMPATE
 	    String verbo=""; // guardará el VERBO de accion (MACHACA, ENVUELVE, CORTA )
