@@ -37,7 +37,7 @@ public class Ej_condicionales7 {
 		tujugada = teclado.nextInt();
 		teclado.close();
 		
-		if (mijugada >3 || tujugada <1){
+		if (tujugada >3 || tujugada <1){
 			System.out.println("Recuerda sólo puedes usar 1, 2 o 3 ");
 		} else 
 		{
