@@ -16,7 +16,7 @@ public class Ej_condicionales4 {
 		double porcentaje=0.0;
 		double consumo=0.0;
 		double autonomiakm=0.0;
-		final double chivato=30.0;
+		final double chivato=300.0;
 		Scanner teclado = new Scanner(System.in); //inicializar captura de teclado
 		
 		System.out.println(" ¿Qué capacidad (lts.) tiene el depósito? ");
@@ -31,7 +31,7 @@ public class Ej_condicionales4 {
 		
 		System.out.printf("Te queda combustible para hacer : %.2f Kmts.",autonomiakm);
 		if (autonomiakm <chivato) 
-			{ System.out.print("\0007");
+			{ System.out.print("\007"); System.out.print("\007"); System.out.print("\007"); System.out.print("\007");
 		     System.out.flush();
 			System.out.println(" REPOSTA CUANDO PUEDAS¡ESTAS CIRCULANDO CON LA RESERVA!");
 			}
